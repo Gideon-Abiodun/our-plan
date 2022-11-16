@@ -1,3 +1,3 @@
 # our-plan
 
-Click to view site: https://github.com/Gideon-Abiodun/our-plan.git
+Click to visit site: https://github.com/Gideon-Abiodun/our-plan.git
