@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-body {
+  background: -webkit-linear-gradient(top left, #FFFFFF, #F0D1FF);
+}
+
+.main-title {
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  padding: auto;
+}
+
+.main-description {
+  padding: auto;
+  font-size: 0.87rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container .text-red {
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 1.4;
+}
+
+.text-gold {
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 1.4;
+}
+
+.plan {
+  background: rgb(255, 0, 0);
+  color: #fff;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: 0.7rem 2.5rem;
+  border-radius: 30px;
+  position: relative;
+  bottom: 20px;
+  right: 40px;
+}
+
+.plan-gold {
+  background: hsl(51, 77%, 52%);
+  color: #000;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: 0.7rem 2.5rem;
+  border-radius: 30px;
+  position: relative;
+  bottom: 20px;
+  right: 40px;
+}
+
+.card-one, .card-two, .card-three {
+  width: 250px;
+  min-height: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 1px #333;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+}
+
+.title {
+  color: #000;
+  font-weight: 500;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.text-red {
+  background: rgb(255, 0, 0);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  border-radius: 20px;
+  padding: 0.8rem;
+  margin: 0.6rem;
+  margin-bottom: -3rem;
+  padding-bottom: 8.5rem;
+}
+
+.text-gold {
+  background: hsl(51, 77%, 52%);
+  color: #000;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  border-radius: 20px;
+  padding: 0.8rem;
+  margin: 0.6rem;
+  margin-bottom: -3rem;
+  padding-bottom: 9rem;
+}
+
+.btn {
+  padding: 8px 25px;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  color: hsl(30, 11%, 4%);
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  left: 65px;
+ 
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgb(241, 241, 241);
+  border-radius: 30px;
+  border: 0.1rem;
+  color: #000;
+  transition: 0.2s ease;
+  box-shadow: 10px 1px 10px 0.2px rgb(204, 42, 42);
+  transition: 0.3s ease;
+}
+
+.btn-gold {
+  padding: 8px 25px;
+  background: #fff;
+  border: none;
+  border-radius: 30px;
+  color: hsl(30, 11%, 4%);
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  left: 65px; 
+}
+
+.btn-gold:hover {
+  cursor: pointer;
+  background: rgb(241, 241, 241);
+  border-radius: 30px;
+  border: 0.1rem;
+  color: #000;
+  transition: 0.2s ease;
+  box-shadow: 10px 1px 10px 0.2px hsl(51, 68%, 43%);
+  transition: 0.3s ease; 
+}
+
+.details-below {
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  margin-top: -1.4rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  .main-title {
+    font-size: 3rem;
+  } 
+  
+  .main-description {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .card-one, .card-two, .card-three {
+    width: 550px;
+    min-height: 600px;
+    margin-bottom: 5rem;
+  }
+  
+  .plan, .plan-gold {
+    font-size: 1.7rem;
+  }
+
+  .text-gold {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: -8rem;
+    padding-bottom: 20rem;
+  }
+  
+  .text-red {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-top: 3rem;    
+    margin-bottom: -4rem;
+    padding-bottom: 20rem;
+  }
+
+  .text-gold {
+    padding-top: 2rem;
+    padding-bottom: 16.8rem;
+  }
+
+  .btn-gold {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: -2rem;
+    left: 136px;
+    padding: 20px 100px;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 2rem;
+    left: 136px;
+    padding: 20px 100px;
+
+  }
+
+  .details-below {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+    .plan {
+      font-size: 1rem;
+    }
+
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+    margin-bottom: -5rem;
+  }
+
+  .card-one, .card-two, .card-three {
+    width: 250px;
+    min-height: 400px;
+    margin-right: 4rem;
+    
+
+  }
+.plan-gold, .plan {
+  font-size: 1.1rem;
+}
+
+  .text-red {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    padding: 1rem;
+    padding-bottom: 9rem;
+  }
+
+  .text-gold {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    padding: 1.8rem;
+    padding-bottom: 9rem;
+
+  }
+
+   .btn, .btn-gold {
+    position: relative;
+    top: -0.4rem;
+    left: 50px;
+    padding: 10px 30px;
+  }
+
+  .details-below {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
+
+
+
+/*
+
+.card-one {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+    margin-left: 3rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px #333;
+}
+.card-two {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+    margin-left: 3rem;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px #333;
+}
+.card-three {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+    margin-left: 3rem;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px #333;
+}
+
+.title {
+  color: #000;
+  font-weight: 500;
+  font-size: 2rem;
+  align-self: center;
+}
+
+.text {
+  background: hsl(51, 77%, 52%);
+  color: #000;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  border-radius: 20px;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  padding-bottom: 9.3rem;
+}
+
+.text-red {
+  background: rgb(255, 0, 0);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  border-radius: 20px;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  padding-bottom: 9.3rem;
+}
+
+.btn {
+  padding: 8px 25px;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  color: hsl(30, 11%, 4%);
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  bottom: -155px;
+  left: -170px;
+ 
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgb(241, 241, 241);
+  border-radius: 30px;
+  border: 0.1rem;
+  color: #000;
+  transition: 0.2s ease;
+  box-shadow: 10px 1px 10px 0.2px rgb(204, 42, 42);
+  transition: 0.3s ease;
+}
+
+.btn-gold {
+  padding: 8px 25px;
+  background: #fff;
+  border: none;
+  border-radius: 30px;
+  color: hsl(30, 11%, 4%);
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  bottom: -155px;
+  left: -170px; 
+}
+
+.btn-gold:hover {
+  cursor: pointer;
+  background: rgb(241, 241, 241);
+  border-radius: 30px;
+  border: 0.1rem;
+  color: #000;
+  transition: 0.2s ease;
+  box-shadow: 10px 1px 10px 0.2px hsl(51, 68%, 43%);
+  transition: 0.3s ease; 
+}
+
+.info {
+  text-align: center;
+  margin-top: -6rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+} */
